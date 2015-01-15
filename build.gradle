@@ -8,8 +8,13 @@ repositories {
 dependencies {
     compile "log4j:log4j:$log4jVersion"
     compile "org.slf4j:slf4j-log4j12:$slf4jVersion"
+    compile "com.googlecode.windowlicker:windowlicker-swing:$windowlickerVersion"
+    compile "jivesoftware:smack:$smackVersion"
 
     testCompile "junit:junit-dep:$junitVersion"
+    testCompile "org.hamcrest:hamcrest-all:$hamcrestVersion"
+    testCompile "org.jmock:jmock:$jmockVersion"
+
 }
 
 idea {
