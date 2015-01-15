@@ -6,7 +6,6 @@ import javax.swing.*;
  * Created by saberseddik on 15-01-14.
  */
 public class Main {
-    public static final String SNIPER_STATUS_NAME = "sniper status";
     public static final String MAIN_WINDOW_NAME = "Auction Sniper Main";
     private MainWindow ui;
     public Main()throws Exception {
