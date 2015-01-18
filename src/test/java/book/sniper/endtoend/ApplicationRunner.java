@@ -1,5 +1,8 @@
-package book.sniper;
-import static book.sniper.FakeAuctionServer.XMPP_HOSTNAME;
+package book.sniper.endtoend;
+import book.sniper.Main;
+import book.sniper.auctionserver.FakeAuctionServer;
+
+import static book.sniper.auctionserver.FakeAuctionServer.XMPP_HOSTNAME;
 /**
  * Created by saberseddik on 15-01-14.
  */
@@ -15,7 +18,7 @@ public class ApplicationRunner {
             @Override
             public void run(){
                 try{
-                    Main.main(XMPP_HOSTNAME, SNIPER_ID,SNIPER_PASSWORD,auction.getItemId());
+                    Main.main(XMPP_HOSTNAME, SNIPER_ID, SNIPER_PASSWORD, auction.getItemId());
                 }catch (Exception e){
                     e.printStackTrace();
                 }

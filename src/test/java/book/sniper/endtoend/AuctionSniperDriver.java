@@ -1,5 +1,7 @@
-package book.sniper;
+package book.sniper.endtoend;
 
+import book.sniper.Main;
+import book.sniper.MainWindow;
 import com.objogate.wl.swing.AWTEventQueueProber;
 import com.objogate.wl.swing.driver.JFrameDriver;
 import com.objogate.wl.swing.driver.JLabelDriver;

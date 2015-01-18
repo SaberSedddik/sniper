@@ -1,7 +1,6 @@
 package book.sniper.endtoend;
 
-import book.sniper.ApplicationRunner;
-import book.sniper.FakeAuctionServer;
+import book.sniper.auctionserver.FakeAuctionServer;
 import org.junit.After;
 import org.junit.Test;
 

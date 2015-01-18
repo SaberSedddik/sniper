@@ -1,4 +1,4 @@
-package book.sniper;
+package book.sniper.auctionserver;
 
 import org.jivesoftware.smack.Chat;
 import org.jivesoftware.smack.ChatManagerListener;
